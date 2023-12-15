@@ -1,0 +1,61 @@
+<div class="frame">
+  <div class="white">
+    <div class="blue"></div>
+  </div>
+  <div class="bottom white">
+    <div class="bottom blue"></div>
+  </div>
+  <div class="right white-2">
+    <div class="right blue-2"></div>
+  </div>
+  <div class="bottom right white-2">
+    <div class="bottom right blue-2"></div>
+  </div>
+</div>
+<style>
+  * {
+    margin: 0;
+    background: transparent;
+  }
+  .frame {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    background: #DE3832
+  }
+  .bottom {
+    position: absolute;
+    bottom: 0
+  }
+  .right {
+    position: absolute;
+    right: 0
+  }
+  .white {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background: white
+  }
+  .blue {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background: #33499F
+  }
+  .white-2 {
+    position: absolute;
+    width: 225px;
+    height: 125px;
+    background: white
+  }
+  .blue-2 {
+    position: absolute;
+    width: 210px;
+    height: 110px;
+    background: #33499F
+  }
+</style>
