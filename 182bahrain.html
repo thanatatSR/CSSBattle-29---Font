@@ -1,0 +1,30 @@
+<div class="frame">
+  <div class="tri"></div>
+  <div class="tri"></div>
+  <div class="tri"></div>
+  <div class="tri"></div>
+  <div class="tri"></div>
+  <div class="tri"></div>
+</div>
+<style>
+  * {
+    margin: 0;
+    background: black
+  }
+  .frame {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    background: linear-gradient(to right, white 25%,#DA291C 0)
+  }
+  .tri {
+    position: relative;
+    left: 25%;
+    border-top: 25px solid #DA291C;
+    border-bottom: 25px solid #DA291C;
+    border-left: 60px solid white;
+  }
+</style>
