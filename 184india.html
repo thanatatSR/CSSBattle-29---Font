@@ -1,0 +1,54 @@
+<div class="mid cir frame">
+  <div class="mid cir inner">
+    <div class="mid stick"></div>
+    <div class="stick two"></div>
+    <div class="stick three"></div>
+  </div>
+  <div class="mid cir core"></div>
+</div>
+<style>
+  * {
+    margin: 0;
+    background: linear-gradient(#F19E4B 100px,white 100px 200px,#3F8627 100px)
+  }
+  .mid {
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+  }
+  .cir {
+    border-radius: 100px;
+  }
+  .frame {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: #00007B
+  }
+  .inner {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: white
+  }
+  .stick {
+    position: absolute;
+    width: 4px;
+    height: 60px;
+    background: #00007B
+  }
+  .two {
+    left: 46%;
+    transform: rotate(60deg)
+  }
+  .three {
+    left: 46%;
+    transform: rotate(-60deg)
+  }
+  .core {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #00007B
+  }
+</style>
